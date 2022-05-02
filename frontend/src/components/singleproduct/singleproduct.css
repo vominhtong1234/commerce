@@ -1,0 +1,14 @@
+.product {
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid rgb(145, 137, 137);
+	border-radius: 5px;
+	margin: 0.5rem;
+	padding: 0.5rem;
+}
+@media (max-width: 800px) {
+	.product {
+		width: 50vw;
+		align-self: center;
+	}
+}

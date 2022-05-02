@@ -1,0 +1,10 @@
+.product-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+@media (max-width: 800px) {
+	.product-list {
+		flex-direction: column;
+	}
+}
